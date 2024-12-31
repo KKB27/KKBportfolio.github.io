@@ -1,0 +1,161 @@
+#beginning{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+}
+
+#beginning h1{
+    font-family: poppins;
+    color: white;
+    margin-left: 10%;
+    font-size: 7vw;
+}
+#beginning p{
+    font-family: cario;
+    color: white;
+    margin-left: 10%;
+    font-size: 2vw;
+}
+#intro{
+    background-color: #e0e0e0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+}
+#intro img{
+    border-radius: 50%;
+    width: 70%;
+    margin: 10%;
+    aspect-ratio: 100/95;
+}
+#intro h1{
+    font-family: poppins;
+    color: black;
+    margin-left: 10%;
+    font-size: 5vw;
+}
+#intro p{
+    font-family: cario;
+    color: black;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+#edu{
+    background-color: #2b3244;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+}
+#edu h1{
+    font-family: poppins;
+    color: white;
+    margin-left: 10%;
+    font-size: 5vw;
+}
+#edu p{
+    font-family: cario;
+    color: white;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+#edu .text{
+    width: 50%;
+}
+#edu .image{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+}
+#edu img{
+    width: 70%;
+    margin-left: 10%;
+    aspect-ratio: 1/1;
+}
+#work{
+    background-color: #e0e0e0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+}
+
+#work h1{
+    font-family: poppins;
+    color: black;
+    margin-left: 10%;
+    font-size: 5vw;
+}
+#work p{
+    font-family: cario;
+    color: black;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+#work img{
+    width: 70%;
+    margin: 10%;
+    aspect-ratio: 100/95;
+}
+#contactMe{
+    background-color: #2b3244;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    flex-direction: row;
+}
+#contactMe h1{
+    font-family: poppins;
+    color: white;
+    margin-left: 10%;
+    font-size: 5vw;
+}
+#contactMe p{
+    font-family: cario;
+    color: white;
+    margin-left: 10%;
+    font-size: 1.5vw;
+
+}#contactMe a{
+    font-family: cario;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+#contactMe .text{
+    width: 50%;
+}
+#contactMe .image{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+#contactMe img{
+    width: 70%;
+    margin-left: 10%;
+    aspect-ratio: 1/1;
+}
+@font-face {
+    font-family: poppins;
+    src: url('./font/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: cario;
+    src: url('./font/Carrois_Gothic/CarroisGothic-Regular.ttf');
+}
